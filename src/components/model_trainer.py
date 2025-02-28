@@ -47,16 +47,16 @@ class ModelTrainer:
             )
         
             models = {
-                #'logistic Regression': LogisticRegression(),
-                #'Support Vector Machines': svm.SVC(kernel='linear'),
-                #'k-Nearest Neighbors': KNeighborsClassifier(n_neighbors=3),
-                #'Naive Bayes': GaussianNB(),
-                #'Decision Trees': DecisionTreeClassifier(),
-                #'Random Forest': RandomForestClassifier(),
-                #'XGBoost': XGBClassifier(),
-                #'LightGBM Classifier': lgb.LGBMClassifier(num_class=2, boosting_type='gbdt'),
+                'logistic Regression': LogisticRegression(),
+                'Support Vector Machines': svm.SVC(kernel='linear'),
+                'k-Nearest Neighbors': KNeighborsClassifier(n_neighbors=3),
+                'Naive Bayes': GaussianNB(),
+                'Decision Trees': DecisionTreeClassifier(),
+                'Random Forest': RandomForestClassifier(),
+                'XGBoost': XGBClassifier(),
+                'LightGBM Classifier': lgb.LGBMClassifier(num_class=2, boosting_type='gbdt'),
                 'CatBoost Classifier': CatBoostClassifier(verbose=False),
-                #'Neural Networks' : MLPClassifier()
+                'Neural Networks' : MLPClassifier()
 
             }
 
